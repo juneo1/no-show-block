@@ -137,3 +137,7 @@ yarn run start
 - onAddSubmit() 은 블랙리스트를 추가할때 호출하는 onClick 이벤트입니다. solidity 코드의 addList function 을 호출합니다. (함수 호출이 안되는 경우가 가끔 있는데 gas 값을 높게 잡아주면 잘 됩니다.)
 - onSearchSibmit() 은 전화번호를 검색해서 count를 가져오고 reporter 리스틑 가져옵니다. (현재 solidity가 struct[] 반환이 안되서 length를 가져와서 한번에 하나씩 가져옵니다. 그때마다 그려줘서 졸라 느려요.) solidity 코드의 getLength, getInfo 를 호출
 - onReduceCount() 는 구매한 토큰으로 블랙리스트를 제거하는 onClick 이벤트 함수입니다. solidity 코드에서 removeCount 를 호출합니다.
+
+#### Written by [@Flowkater](https://github.com/flowkater)
+
+> 아무래도 한정된 시간으로 작업하다보니 제가 편한 react 로 작업을 하였습니다. Dapp 개발에는 프론트엔드 개발이 필수니 jQuery 같은 레거시 라이브러리보다 최신 트렌드인 react, redux 등을 이번 기회에 학습하시는 기회가 되는 것도(?) 좋겠다는 제 나름의 합리화였습니다. (ㅋㅋㅋㅋㅋㅋ) 소스코드 보시다 모르시면 제가 알려드리겠습니다.
